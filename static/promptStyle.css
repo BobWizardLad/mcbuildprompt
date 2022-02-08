@@ -1,3 +1,5 @@
+/* A ton of styling code and guidance from https://www.w3schools.com */
+
 /* Add a background color to navbar */
 .topnav {
     background-color: rgb(41, 25, 99);
@@ -25,4 +27,20 @@
 .topnav a.active {
     background-color: #7f43a1;
     color: white;
+}
+
+/* The title prompt section of the page */
+div.promptbody {
+    margin: auto;
+    width: 50%;
+    margin-top: 6%;
+    text-align: center;
+}
+
+/* The prompt history section of the page */
+div.recommends {
+    margin: auto;
+    width: 50%;
+    margin-top: 6%;
+    text-align: center;
 }
