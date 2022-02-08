@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="static/promptStyle.css">
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="/">Builds</a>
+        <a href="/theme">Theme</a>
+        <a href="/rooms">Rooms</a>
+        <a href="/decor" class="active">Decor</a>
+        <a href="/lore">Lore</a>
+
+    </div>
+
+    {% if name %}
+        Hello, {{name}}!
+    {% else %}
+        Hello User!
+    {% endif %}
+</body>

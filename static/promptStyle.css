@@ -1,0 +1,46 @@
+/* A ton of styling code and guidance from https://www.w3schools.com */
+
+/* Add a background color to navbar */
+.topnav {
+    background-color: rgb(41, 25, 99);
+    overflow: hidden;
+}
+
+/* Style for links in navbar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Color of links on mouse hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+    background-color: #7f43a1;
+    color: white;
+}
+
+/* The title prompt section of the page */
+div.promptbody {
+    margin: auto;
+    width: 50%;
+    margin-top: 6%;
+    text-align: center;
+}
+
+/* The prompt history section of the page */
+div.recommends {
+    margin: auto;
+    width: 50%;
+    margin-top: 6%;
+    text-align: center;
+}
