@@ -4,6 +4,10 @@
 .topnav {
     background-color: rgb(41, 25, 99);
     overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%
 }
 
 /* Style for links in navbar */
@@ -33,12 +37,12 @@
 div.promptbody {
     margin: auto;
     width: 50%;
-    margin-top: 6%;
+    margin-top: 10%;
     text-align: center;
 }
 
 /* The prompt history section of the page */
-div.recommends {
+div.hist {
     margin: auto;
     width: 50%;
     margin-top: 6%;
