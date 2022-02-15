@@ -2,7 +2,7 @@
 
 /* Add a background color to navbar */
 .topnav {
-    background-color: rgb(41, 25, 99);
+    background-color: rgb(70, 112, 26);
     overflow: hidden;
     position: fixed;
     left: 0;
@@ -23,13 +23,13 @@
 
 /* Color of links on mouse hover */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: rgb(135, 185, 39);
     color: black;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-    background-color: #7f43a1;
+    background-color: rgb(97, 168, 38);
     color: white;
 }
 
