@@ -11,9 +11,15 @@
         <a href="/lore">Lore</a>
     </div>
 
-    {% if name %}
-        Hello, {{name}}!
-    {% else %}
-        Hello User!
-    {% endif %}
+    <div class="promptbody">
+        <div class="title">
+            <h1>Get Ideas for Rooms</h1>
+            <input type="submit" id="getRooms" value="Give me a prompt!">
+            <p id="prompt"></p>
+        </div>
+        <div class="hist">
+            <h1>History</h1>
+            <p id="history"></p>
+        </div>
+    </div>
 </body>
