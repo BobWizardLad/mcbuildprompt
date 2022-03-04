@@ -5,6 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def build_prompt():
     return render_template("builds.html")
+    pass
 
 @app.route("/decor")
 def decor_prompt():
