@@ -3,6 +3,8 @@ import srvPrompt as prmpt
 
 app = Flask(__name__)
 
+bank_cache = []
+
 @app.route("/")
 def build_prompt():
     return render_template("builds.html")

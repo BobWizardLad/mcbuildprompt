@@ -5,6 +5,7 @@ class PromptScraper():
     filename = ""
     word_bank = []
 
+    # -------------------------------------- Constructors
     def __init__(fname):
         global filename, word_bank
         
@@ -17,6 +18,7 @@ class PromptScraper():
         filename = fname
         word_bank = wordBnk
 
+    # Take an Fname and creates a word bank if one is not used in the constructor
     def create_word_bank(fname):
         prompts = []
 
@@ -27,8 +29,16 @@ class PromptScraper():
 
         return prompts
 
+    # ------------------------------------------------ Class Methods
+
+    # Serves a prompt as a return from the class word bank
     def give_prompt():
         pass
     
-    def give_multi_prompt():
+    # Serves a prompt of more than one word from the word bank
+    def give_prompt(count):
+        pass
+
+    # Getter method to pull the word bank out of the class
+    def cache_bank():
         pass
