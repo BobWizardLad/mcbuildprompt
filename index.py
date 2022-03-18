@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+import srvPrompt as prmpt
 
 app = Flask(__name__)
 
@@ -22,3 +23,5 @@ def room_prompt():
 @app.route("/theme")
 def theme_prompt():
     return render_template("theme.html")
+
+# On a POST request with the relevant category, serve a randomized prompt

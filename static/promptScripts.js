@@ -1,7 +1,6 @@
 // Return a string that gives a building
 function generateBuilds(txtFile) {
     // Pick keywords
-    with f as OptionalEffectTiming()
     // Decide adjectives/ addons
     // Assemble phrase
     // Return phrase
