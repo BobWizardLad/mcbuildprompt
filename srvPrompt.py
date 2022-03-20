@@ -33,12 +33,18 @@ class PromptScraper():
 
     # Serves a prompt as a return from the class word bank
     def give_prompt():
-        pass
+        global word_bank
+        return word_bank[np.random.randint(0, len(word_bank))]
     
     # Serves a prompt of more than one word from the word bank
     def give_prompt(count):
-        pass
+        global word_bank
+        prompt = ""
+
+        for i in count:
+            prompt += word_bank[np.random.randint(0, len(word_bank))] + " "
+        return prompt
 
     # Getter method to pull the word bank out of the class
-    def cache_bank():
-        pass
+    def get_bank():
+        return word_bank

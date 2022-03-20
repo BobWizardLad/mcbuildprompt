@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-import srvPrompt as prmpt
+import srvPrompt as srv
 
 app = Flask(__name__)
 
